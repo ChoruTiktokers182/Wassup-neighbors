@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login API Documentation</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="replit-colors.css">
+  <link rel="stylesheet" href="globals.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+      color: #333; 
+    }
+
+    h1 {
+      color: #4CAF50;
+    }
+
+    h2 {
+      margin-top: 20px;
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    .code-container {
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      padding: 15px;
+      overflow-x: auto; /* Allows horizontal scrolling if the code is too long */
+    }
+
+    pre {
+      margin: 0;
+      padding: 10px;
+      background: #272822; /* Dark background for code */
+      color: #f8f8f2; /* Light color for code text */
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+
+    code {
+      font-family: 'Courier New', Courier, monospace;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Login API Documentation</h1>
+  <p>Use this endpoint to log in to the service.</p>
+
+  <h2>Current Endpoint</h2>
+  <div class="code-container">
+    <pre><code class="language-http" id="endpoint-url"></code></pre>
+  </div>
+
+  <h2>Request Body</h2>
+  <div class="code-container">
+    <pre><code class="language-json">{
+  "email": "your-email",
+  "pass": "your-password"
+}</code></pre>
+  </div>
+
+  <h2>Example Code</h2>
+  <div class="code-container">
+    <pre><code class="language-javascript">
+      const axios = require('axios');
+/*get the link 
+      on current endpoint 
+      and paste on login example 
+https://appstate.getter/login but this not 
+      link the link on the top find 
+      the title "Current Endpoint" and
+      copy it*/
+      async function login() {
+        try {
+          const response = await axios.post('link/login', {
+            email: 'email/phone/fbid',
+            pass: 'pass'
+          });
+          console.log('Login successful:', response.data);
+        } catch (error) {
+          console.error('Login failed:', error.response.data);
+        }
+      }
+
+      login();
+    </code></pre>
+  </div>
+
+  <script>
+    // Set the current endpoint URL dynamically
+    document.getElementById('endpoint-url').textContent = `${window.location.href}`;
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js" integrity="sha512-bgHRAiTjGrzHzLyKOnpFvaEpGzJet3z4tZnXGjpsCcqOnAH6VGUx9frc5bcIhKTVLEiCO6vEhNAgx5jtLUYrfA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>hljs.highlightAll();</script>
+</body>
+
+</html>

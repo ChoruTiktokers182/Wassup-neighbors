@@ -1,0 +1,178 @@
+.hljs .hljs-url {
+  text-decoration: underline;
+}
+
+.hljs .hljs-heading1 {
+  font-weight: var(--font-weight-bold);
+  font-size: 1.2em;
+}
+
+.hljs .hljs-heading2 {
+  font-weight: var(--font-weight-bold);
+  font-size: 1.1em;
+}
+
+.hljs .hljs-heading3 {
+  font-weight: var(--font-weight-bold);
+  font-size: 1.05;
+}
+
+.hljs .hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs .hljs-heading, .hljs .hljs-strong {
+  font-weight: var(--font-weight-bold);
+}
+
+.hljs .hljs-strikethrough, .hljs .hljs-deleted {
+  text-decoration: line-through;
+}
+
+.hljs .hljs-monospace {
+  font-family: var(--font-family-code);
+}
+
+.hljs .hljs-bracket {
+  color: var(--foreground-default);
+}
+
+.hljs .hljs-squareBracket {
+  color: var(--foreground-default);
+}
+
+.hljs .hljs-angleBracket, .hljs .hljs-tag {
+  color: var(--foreground-dimmest);
+}
+
+.hljs .hljs-variable {
+  color: var(--foreground-default);
+}
+
+.hljs .hljs-variable.definition {
+  color: var(--foreground-default);
+}
+
+.hljs .hljs-comment {
+  color: var(--accent-green-default);
+}
+
+.hljs .hljs-invalid {
+  color: var(--accent-red-stronger);
+}
+
+.hljs .hljs-string, .hljs .hljs-string.special, .hljs .hljs-character {
+  color: var(--accent-orange-strongest);
+}
+
+.hljs .hljs-deleted {
+  color: var(--accent-orange-strongest);
+}
+
+.hljs .hljs-literal {
+  color: var(--accent-yellow-strongest);
+}
+
+.hljs .hljs-inserted {
+  color: var(--accent-yellow-strongest);
+}
+
+.hljs .hljs-link {
+  color: var(--accent-yellow-strongest);
+}
+
+.hljs .hljs-contentSeparator {
+  color: var(--accent-yellow-strongest);
+}
+
+.hljs .hljs-labelName, .hljs .hljs-selector-id, .hljs .hljs-selector-id {
+  color: var(--accent-yellow-strongest);
+}
+
+.hljs .hljs-property.function_ {
+  color: var(--accent-yellow-strongest);
+}
+
+.hljs .hljs-title.function_ {
+  color: var(--accent-yellow-strongest);
+}
+
+.hljs .hljs-title.function_.definition {
+  color: var(--accent-yellow-strongest);
+}
+
+.hljs .hljs-number, .hljs .hljs-integer, .hljs .hljs-float {
+  color: var(--accent-lime-strongest);
+}
+
+.hljs .hljs-variable.local {
+  color: var(--accent-blue-strongest);
+}
+
+.hljs .hljs-property.definition {
+  color: var(--accent-blue-strongest);
+}
+
+.hljs .hljs-property {
+  color: var(--accent-blue-strongest);
+}
+
+.hljs .hljs-attribute {
+  color: var(--accent-blue-strongest);
+}
+
+.hljs .hljs-operator {
+  color: var(--accent-blue-strongest);
+}
+
+.hljs .hljs-bool {
+  color: var(--accent-blue-strongest);
+}
+
+.hljs .hljs-title.class_ {
+  color: var(--accent-blue-stronger);
+}
+
+.hljs .hljs-macroName {
+  color: var(--accent-blue-stronger);
+}
+
+.hljs .hljs-variable.special {
+  color: var(--accent-blue-stronger);
+}
+
+.hljs .hljs-typeName {
+  color: var(--accent-blue-stronger);
+}
+
+.hljs .hljs-tag > .hljs-name, .hljs .hljs-selector-tag, .hljs .hljs-selector-class {
+  color: var(--accent-blue-stronger);
+}
+
+.hljs .hljs-meta {
+  color: var(--accent-blue-stronger);
+}
+
+.hljs .hljs-atom {
+  color: var(--accent-blue-stronger);
+}
+
+.hljs .hljs-keyword {
+  color: var(--accent-blue-stronger);
+}
+
+.hljs .hljs-variable.standard {
+  color: var(--accent-purple-stronger);
+}
+
+.hljs .hljs-namespace {
+  color: var(--accent-teal-strongest);
+}
+
+.hljs .hljs-escape {
+  color: var(--accent-pink-stronger);
+}
+
+.hljs .hljs-regexp {
+  color: var(--accent-pink-stronger);
+}
