@@ -31,7 +31,7 @@ async function login(email, pass) {
 
     const { stdout: chromiumPath } = await execPromise('which chromium');
     browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
       executablePath: chromiumPath.trim(),
       ignoreHTTPSErrors: true,
       args: [
